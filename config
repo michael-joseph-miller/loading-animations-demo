@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://github.com/michael-joseph-miller/loading-animations-demo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
