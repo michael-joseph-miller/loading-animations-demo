@@ -5,7 +5,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@michael-joseph-miller/loading-animations-react": "^1.1.1",
